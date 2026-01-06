@@ -1,4 +1,4 @@
-10# Similar Images Finder
+# Doppio - Similar Images Finder
 
 Find visually similar images in a folder using perceptual hashing.
 
@@ -8,10 +8,10 @@ Create venv for deps
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-```bash
+```
 
 Install dependencies:
-```
+```bash
 pip install -r requirements.txt
 ```
 
