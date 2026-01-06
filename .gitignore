@@ -1,6 +1,10 @@
-venv/
-!venv/Scripts/
 test/
+.venv/
+!.venv/Scripts/
+
 __pycache__/
 *.py[cod]
 *$py.class
+
+build/
+dist/

@@ -10,9 +10,10 @@ python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 ```
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
+
+Create self-contained gui app
+```powershell
+package-selfcontained.ps1
 ```
 
 ## Usage
@@ -23,6 +24,12 @@ Launch the graphical interface:
 ```bash
 python find_similar_images_gui.py
 ```
+
+Or self-contained
+```
+find_similar_images_gui.exe
+```
+
 
 Or specify a folder and threshold directly:
 ```bash
